@@ -65,9 +65,9 @@ function userType() {
                 }
             }
             firstStartTimer();
-            highlightText();
         }
         compareText();
+        typeSymb();
         highlightText();
     });
 }
@@ -87,6 +87,11 @@ function compareText() {
         pauseWatch();
         statisticType();
     }
+}
+
+function typeSymb() {
+    let typeSymb = document.getElementById("symb");
+    typeSymb.innerHTML = "-" + userTextArray.length + "-";
 }
 
 function statisticType() {

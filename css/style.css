@@ -55,8 +55,8 @@ textarea {
     font-size: 18px;
     line-height: 1.5;
     width: 1200px;
-    height: 100px;
-    padding: 20px;
+    height: 110px;
+    padding: 10px;
     margin: 5px;
     overflow: hidden;
 }
@@ -69,15 +69,15 @@ textarea {
     font-size: 18px;
     line-height: 1.5;
     width: 1200px;
-    height: 100px;
-    padding: 20px;
+    height: 110px;
+    padding: 10px;
     margin: 5px;
     overflow: hidden;
 }
 
 #form__input {
     position: relative;
-    top: 12px;
+    top: 0px;
     left: 35px;
     bottom: 10px;
     width: 590px;
@@ -96,13 +96,13 @@ textarea {
     font-size: 64px;
     font-weight: 800;
     margin-left: 1200px;
-    padding: 20px;
+    padding: 15px;
     border: 10px inset grey;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 750px;
+    top: 740px;
 }
 
 button {
