@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>protoType</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>protoType</header>
+        <main>
+            <section class="main">
+                <form class="example_area" name="form">
+                    <textarea
+                        id="form__example"
+                        input
+                        type="text"
+                        placeholder="Давай проверим скорость набора текста. Введи или вставь любой текст в это окно и нажми Enter, а потом набери его на экране ниже."
+                        maxlength="230"
+                    ></textarea>
+                    <div
+                        class="highlighted"
+                        id="highlight__example"
+                        contenteditable="true"
+                    ></div>
+                </form>
+                <form class="input_area">
+                    <textarea id="form__input" input type="text"></textarea>
+                </form>
+                <div id="try__wrap" hidden>
+                    <button type="button" id="new__try">
+                        Попробуем еще раз?
+                    </button>
+                </div>
+                <form class="timewatch">
+                    <div class="watch" id="time">00:00</div>
+                </form>
+            </section>
+        </main>
+        <footer>KS 2023</footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>

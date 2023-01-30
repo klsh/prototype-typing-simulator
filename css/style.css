@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+header {
+    font-size: 48px;
+    font-style: oblique;
+    text-shadow: 2px 2px #fff;
+    padding: 15px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 1.5;
+    background: #626c74;
+}
+
+.main {
+    max-width: 1600px;
+    max-height: 1000px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url("../img/proto-type.jpg") center;
+    background-blend-mode: overlay;
+    color: #fff;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    min-height: 100vh;
+    padding: 150px 50px;
+}
+
+textarea {
+    resize: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+#form__example {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 1200px;
+    height: 100px;
+    padding: 20px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+#highlight__example {
+    position: relative;
+    background-color: #fff;
+    border: solid;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 1200px;
+    height: 100px;
+    padding: 20px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+#form__input {
+    position: relative;
+    top: 12px;
+    left: 35px;
+    bottom: 10px;
+    width: 590px;
+    height: 375px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: normal;
+}
+
+.timewatch {
+    font-family: "PT Mono", monospace;
+    color: greenyellow;
+    font-size: 64px;
+    font-weight: 800;
+    margin-left: 1200px;
+    padding: 20px;
+    border: 10px inset grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 750px;
+}
+
+button {
+    position: relative;
+    top: -200px;
+    left: 30px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    background: #626c74;
+}
